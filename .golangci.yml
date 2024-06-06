@@ -31,6 +31,10 @@ linters-settings:
         allow:
           - $gostd
           - "github.com/RiskIdent/traefik-remoteaddr-plugin"
+  stylecheck:
+    checks:
+      - all
+      - -ST1003
 
 linters:
   enable-all: true
