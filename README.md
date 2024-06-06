@@ -1,6 +1,7 @@
 # Traefik RemoteAddr plugin
 
-[![Build status](https://github.com/RiskIdent/traefik-remoteaddr-plugin/actions/workflows/main.yml/badge.svg)](https://github.com/RiskIdent/traefik-remoteaddr-plugin/actions/workflows/main.yml)
+[![Main workflow](https://github.com/RiskIdent/traefik-remoteaddr-plugin/actions/workflows/main.yml/badge.svg)](https://github.com/RiskIdent/traefik-remoteaddr-plugin/actions/workflows/main.yml)
+[![Go matrix workflow](https://github.com/RiskIdent/traefik-remoteaddr-plugin/actions/workflows/go-cross.yml/badge.svg)](https://github.com/RiskIdent/traefik-remoteaddr-plugin/actions/workflows/go-cross.yml)
 
 ## Usage
 
