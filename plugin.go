@@ -25,7 +25,11 @@ type ConfigHeaders struct {
 // CreateConfig creates the default plugin configuration.
 func CreateConfig() *Config {
 	return &Config{
-		Headers: ConfigHeaders{},
+		Headers: ConfigHeaders{
+			Port:    "",
+			IP:      "",
+			Address: "",
+		},
 	}
 }
 
@@ -38,7 +42,7 @@ type RemoteAddrPlugin struct {
 
 // New created a new RemoteAddrPlugin.
 func New(_ context.Context, next http.Handler, config *Config, name string) (http.Handler, error) {
-	if config.Headers == (ConfigHeaders{}) {
+	if config.Headers == (ConfigHeaders{Port: "", IP: "", Address: ""}) {
 		return nil, errMissingHeaderConfig
 	}
 
