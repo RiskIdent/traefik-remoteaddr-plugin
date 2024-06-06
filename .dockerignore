@@ -1,0 +1,10 @@
+.git
+.assets
+.github
+.gitignore
+.golangci.yml
+*_test.go
+README.md
+Makefile
+Dockerfile
+.dockerignore
