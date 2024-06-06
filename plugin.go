@@ -1,4 +1,5 @@
-// Package plugin a demo plugin.
+// Package traefik_remoteaddr_plugin contains the Traefik plugin for adding headers based on the
+// [net/http.Request.RemoteAddr] field.
 package traefik_remoteaddr_plugin
 
 import (
