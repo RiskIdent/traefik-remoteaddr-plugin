@@ -1,6 +1,6 @@
 # Traefik RemoteAddr plugin
 
-[![Build Status](https://github.com/RiskIdent/traefik-remoteaddr-plugin/workflows/Main/badge.svg?branch=master)](https://github.com/RiskIdent/traefik-remoteaddr-plugin/actions)
+[![Build Status](https://github.com/RiskIdent/traefik-remoteaddr-plugin/workflows/Main/badge.svg?branch=main)](https://github.com/RiskIdent/traefik-remoteaddr-plugin/actions)
 
 ## Usage
 
