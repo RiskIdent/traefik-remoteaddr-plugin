@@ -1,5 +1,5 @@
 // Package plugin a demo plugin.
-package plugin
+package traefik_remoteaddr_plugin
 
 import (
 	"context"
