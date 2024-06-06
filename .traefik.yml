@@ -1,12 +1,11 @@
-displayName: Demo Plugin
+displayName: RemoteAddr (fix X-Forwarded-Port)
 type: middleware
 iconPath: .assets/icon.png
 
-import: github.com/traefik/plugindemo
+import: github.com/RiskIdent/traefik-remoteaddr-plugin
 
-summary: '[Demo] Add Request Header'
+summary: "Add request header for the client port, to make X-Forwarded-Port act like in nginx"
 
 testData:
-  Headers:
-    X-Demo: test
-    X-URL: '{{URL}}'
+  headers:
+    port: X-Forwarded-Port

@@ -25,21 +25,16 @@ linters-settings:
       - FIXME
   gofumpt:
     extra-rules: true
+  depguard:
+    rules:
+      main:
+        allow:
+          - $gostd
+          - "github.com/RiskIdent/traefik-remoteaddr-plugin"
 
 linters:
   enable-all: true
   disable:
-    - deadcode # deprecated
-    - exhaustivestruct # deprecated
-    - golint # deprecated
-    - ifshort # deprecated
-    - interfacer # deprecated
-    - maligned # deprecated
-    - nosnakecase # deprecated
-    - scopelint # deprecated
-    - scopelint # deprecated
-    - structcheck # deprecated
-    - varcheck # deprecated
     - sqlclosecheck # not relevant (SQL)
     - rowserrcheck # not relevant (SQL)
     - execinquery # not relevant (SQL)
@@ -53,9 +48,7 @@ linters:
     - wsl
     - exhaustive
     - exhaustruct
-    - goerr113
     - wrapcheck
-    - ifshort
     - noctx
     - lll
     - gomnd

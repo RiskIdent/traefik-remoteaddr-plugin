@@ -1,3 +1,3 @@
-module github.com/traefik/plugindemo
+module github.com/RiskIdent/traefik-remoteaddr-plugin
 
 go 1.19
