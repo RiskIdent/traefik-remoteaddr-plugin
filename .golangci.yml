@@ -31,11 +31,6 @@ linters-settings:
         allow:
           - $gostd
           - "github.com/RiskIdent/traefik-remoteaddr-plugin"
-  stylecheck:
-    checks:
-      - all
-      # Remove some checks:
-      - -ST1003 # should not use underscores in package names
 
 linters:
   enable-all: true

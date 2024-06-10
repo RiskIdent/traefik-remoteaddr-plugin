@@ -1,4 +1,4 @@
-package traefik_remoteaddr_plugin_test
+package plugin_test
 
 import (
 	"context"

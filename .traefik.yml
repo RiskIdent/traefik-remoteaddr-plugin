@@ -3,6 +3,7 @@ type: middleware
 iconPath: .assets/icon.png
 
 import: github.com/RiskIdent/traefik-remoteaddr-plugin
+basePkg: plugin
 
 summary: "Add request header for the client port, to make X-Forwarded-Port act like in nginx"
 
