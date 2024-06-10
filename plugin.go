@@ -34,7 +34,7 @@ func CreateConfig() *Config {
 	}
 }
 
-// RemoteAddrPlugin a RemoteAddrPlugin plugin.
+// RemoteAddrPlugin is the main handler model for this Traefik plugin.
 type RemoteAddrPlugin struct {
 	next    http.Handler
 	headers ConfigHeaders
