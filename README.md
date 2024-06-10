@@ -46,7 +46,7 @@ experimental:
   plugins:
     remoteaddr:
       moduleName: github.com/RiskIdent/traefik-remoteaddr-plugin
-      version: v0.1.0
+      version: v0.1.1
 ```
 
 </details>
@@ -57,7 +57,7 @@ experimental:
 # Static configuration
 
 --experimental.plugins.remoteaddr.moduleName=github.com/RiskIdent/traefik-remoteaddr-plugin
---experimental.plugins.remoteaddr.version=v0.1.0
+--experimental.plugins.remoteaddr.version=v0.1.1
 ```
 
 </details>
