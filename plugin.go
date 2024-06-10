@@ -1,5 +1,10 @@
 // Package traefik_remoteaddr_plugin contains the Traefik plugin for adding headers based on the
 // [net/http.Request.RemoteAddr] field.
+//
+// The naming of this package may seem odd and unconventional with its use
+// of underscores. But Traefik requires the package name to be the same
+// as the repository name while loading the plugin
+// (but with dashes converted to underscores)
 package traefik_remoteaddr_plugin
 
 import (
