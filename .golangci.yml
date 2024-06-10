@@ -59,6 +59,7 @@ linters:
     - gomnd
     - forbidigo
     - varnamelen
+    - exhaustivestruct
 
 issues:
   exclude-use-default: false
